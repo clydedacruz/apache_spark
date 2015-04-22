@@ -18,6 +18,5 @@ spark_group = node['apache_spark']['group']
 group spark_group
 
 user spark_user do
-  comment "Apache Spark Framework"
-  gid spark_group
+   gid spark_group
 end
